@@ -32,14 +32,7 @@ export const columns = ({ handleEdit }) => [
     title: "Edit",
     render: (row) => (
       <Link to={`/edit-user/${row.id}`}>
-        <Button
-          type="primary"
-          onClick={() => {
-            console.log(row);
-          }}
-        >
-          Edit
-        </Button>
+        <Button type="primary">Edit</Button>
       </Link>
     ),
     width: "5%",

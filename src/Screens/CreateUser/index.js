@@ -33,7 +33,6 @@ const CreateUser = () => {
   const submit = async (e) => {
     e.preventDefault();
 
-    console.log(query);
     await dispatch(userActions.addUsers(query));
     navigate("/");
 

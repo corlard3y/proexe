@@ -74,7 +74,6 @@ const Dashboard = () => {
                   columns: columns({
                     handleEdit: (row) => {
                       showModal();
-                      console.log(row);
                       setActive(row?.id);
                     },
                   }),
