@@ -69,7 +69,7 @@ const EditUser = () => {
           <p className="ml-2 my-auto">BACK</p>
         </div>
         <form
-          className="bg-white w-1/3 mx-auto p-8 rounded-md"
+          className="bg-white mt-8 lg:w-1/3 mx-auto p-8 rounded-md"
           onSubmit={(e) => submit(e)}
         >
           <h1 className="text-center text-2xl font-bold">Edit User</h1>

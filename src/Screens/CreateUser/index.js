@@ -52,7 +52,7 @@ const CreateUser = () => {
           <FaAngleLeft />
           <p className="ml-2 my-auto">BACK</p>
         </div>
-        <form className="bg-white w-1/3 mx-auto p-8">
+        <form className="bg-white mt-8 lg:w-1/3 mx-auto p-8">
           <h1 className="text-center text-2xl font-bold">Create New User</h1>
 
           <div className="flex flex-col">

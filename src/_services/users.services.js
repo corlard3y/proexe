@@ -14,6 +14,7 @@ async function getUsers() {
     `https://my-json-server.typicode.com/karolkproexe/jsonplaceholderdb/data`,
     requestOptions
   );
+  localStorage.setItem("users", JSON.stringify(response?.data));
 
   return response;
 }

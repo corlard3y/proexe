@@ -14,9 +14,11 @@ export function user(state = initialState, action) {
     case userTypes.GET_USERS_SUCCESS:
     case userTypes.ADD_USER_SUCCESS:
     case userTypes.DELETE_USER_SUCCESS:
+      // console.log(state?.users);
       return {
         ...state,
-        users: state?.users,
+        // users: action?.users?.data,
+        users: state?.users === null ? action?.users?.data : state?.users,
       };
     case userTypes.GET_USERS_FAILURE:
     case userTypes.ADD_USER_FAILURE:
